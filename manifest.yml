@@ -1,0 +1,10 @@
+applications:
+- path: JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NewAgeBankers2
+  host: newagebankers2
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-f1
